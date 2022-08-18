@@ -1,0 +1,14 @@
+.row {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border: 1px solid black;
+    gap: 1px;
+}
+
+p {
+    font-size: 0.9rem;
+}
+.btn {
+    cursor: pointer;
+    color: rgb(81, 109, 210)
+}
